@@ -45,4 +45,5 @@ example::
 
     ------------------------------------------------------------------
     Your code has been rated at 9.49/10 (previous run: 9.49/10, +0.00)
+
     ERROR: score 9.4921875 is less than fail-under value 9.75

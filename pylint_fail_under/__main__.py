@@ -38,6 +38,7 @@ def main():
             fail_under_value = 10.0
 
         results = Run(args=cmd_line_args, do_exit=False)
+        sys.stdout.flush()
 
         try:
             score = results.linter.stats["global_note"]

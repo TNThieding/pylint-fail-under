@@ -99,5 +99,5 @@ class TestCmdLineInterface(unittest.TestCase):
         assert exit_code == 0
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     unittest.main()
