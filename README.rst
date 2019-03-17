@@ -2,6 +2,17 @@
 [pylint-fail-under] Package
 ###########################
 
+.. image:: https://travis-ci.org/TNThieding/pylint-fail-under.svg?branch=master
+    :target: https://travis-ci.org/TNThieding/pylint-fail-under
+
+.. image:: https://coveralls.io/repos/github/TNThieding/pylint-fail-under/badge.svg?branch=master
+    :target: https://coveralls.io/github/TNThieding/pylint-fail-under?branch=master
+
+.. image:: https://readthedocs.org/projects/pylint-fail-under/badge/?version=latest
+    :target: https://pylint-fail-under.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+
 Pylint wrapper that verifies code reaches a minimum quality score.
 
 ***********
