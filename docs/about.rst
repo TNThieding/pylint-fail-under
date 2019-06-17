@@ -12,7 +12,7 @@ Contributors
 Development
 ***********
 
-:Repository: https://github.com/TNThieding/pylint-fail-under
+:Repository: https://gitlab.com/TNThieding/pylint-fail-under
 
 *******
 License
