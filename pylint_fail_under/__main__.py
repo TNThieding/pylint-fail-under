@@ -1,13 +1,9 @@
 """Command line interface for pylint-fail-under."""
 
-from __future__ import print_function
-
 import logging
 import sys
 
 from pylint.lint import Run
-
-logger = logging.getLogger(__name__)
 
 SUCCESS = 0
 SCORE_TOO_LOW = 1
@@ -23,6 +19,8 @@ def main():
     """
     exit_code = SUCCESS
     cmd_line_args = list(sys.argv[1:])
+
+    logger = logging.getLogger(__name__)
 
     if cmd_line_args:
         logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.INFO)

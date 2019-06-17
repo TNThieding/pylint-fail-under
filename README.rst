@@ -2,11 +2,11 @@
 [pylint-fail-under] Package
 ###########################
 
-.. image:: https://travis-ci.org/TNThieding/pylint-fail-under.svg?branch=master
-    :target: https://travis-ci.org/TNThieding/pylint-fail-under
+.. image:: https://gitlab.com/TNThieding/pylint-fail-under/badges/master/pipeline.svg
+    :target: https://gitlab.com/TNThieding/pylint-fail-under/commits/master
 
-.. image:: https://coveralls.io/repos/github/TNThieding/pylint-fail-under/badge.svg?branch=master
-    :target: https://coveralls.io/github/TNThieding/pylint-fail-under?branch=master
+.. image:: https://gitlab.com/TNThieding/pylint-fail-under/badges/master/coverage.svg
+    :target: https://gitlab.com/TNThieding/pylint-fail-under/commits/master
 
 .. image:: https://readthedocs.org/projects/pylint-fail-under/badge/?version=latest
     :target: https://pylint-fail-under.readthedocs.io/en/latest/?badge=latest

@@ -9,7 +9,7 @@ setuptools.setup(
         ],
 
     name             = 'pylint-fail-under',
-    version          = '0.1.0',
+    version          = '0.2.0',
     author           = 'Tyler N. Thieding',
     author_email     = 'python@thieding.com',
     maintainer       = 'Tyler N. Thieding',
