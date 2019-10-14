@@ -2,6 +2,16 @@
 Release Notes
 #############
 
+****************************************************************
+[0.3.0] Return zero exit code when no score parsed. (2019-10-14)
+****************************************************************
+
+Previously, the command line interface returned an exit code of ``2`` if no score was parsed. In files with
+``# pylint: disable-all`` or a file with no code do not generate a score, this caused a false positive. Now, return
+an exit code of ``0`` if no score is parsed.
+
+*Thank you to GitHub user tanishq-dubey for proposing this change and for his original pull request.*
+
 *******************************************
 [0.2.0] Drop Python 2 support. (2019-06-16)
 *******************************************
