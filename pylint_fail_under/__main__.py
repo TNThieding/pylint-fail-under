@@ -7,7 +7,7 @@ from pylint.lint import Run
 
 SUCCESS = 0
 SCORE_TOO_LOW = 1
-NO_SCORE_PARSED = 2
+NO_SCORE_PARSED = 0
 
 
 def main():
@@ -41,7 +41,7 @@ def main():
         try:
             score = results.linter.stats["global_note"]
         except KeyError:
-            logger.error("no score parsed from Pylint output")
+            logger.warning("no score parsed from Pylint output")
             exit_code = NO_SCORE_PARSED
         else:
             if score < fail_under_value:
