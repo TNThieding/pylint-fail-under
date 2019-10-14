@@ -76,7 +76,7 @@ class TestCmdLineInterface(unittest.TestCase):
 
         pl_mock.assert_called_once_with(
             args=["--disable", "trailing-whitespace", "bad_pkg"], do_exit=False)
-        assert exit_code == 2
+        assert exit_code == 0
 
     def test_help(self):  # pylint: disable=no-self-use
         """Verify printing usage information to the console if no arguments specified."""
