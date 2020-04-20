@@ -1,0 +1,8 @@
+-   id: pylint-fail-under
+    name: pylint-fail-under
+    entry: pylint-fail-under
+    language: python
+    'types': [python]
+    args: []
+    require_serial: false
+    description: Passes or fails based on specified score with --fail-under arg
